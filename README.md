@@ -75,14 +75,20 @@ Please follow the link below to view a walkthrough video.
 <a href="https://drive.google.com/file/d/1L0_Vxrll1TITpw4eTgfKn1_CXG6Nf9G4/view?usp=sharing" target="_blank">Click here to watch the video!</a>
 
 ## Gif
-
+- Demonstration of seeding data and starting the server
 ![](./assets/Seeds.gif)
 
+
+- Demonstration of request handling for Categories
 ![](./assets/Categories.gif)
 
+
+- Demonstration of request handling for Products
 ![](./assets/Products.gif)
 
-![](./assets/Tags.gif)
+
+- Demonstration of request handling for Tags
+![](./assets/Tag.gif)
 
 ## Credits
 
