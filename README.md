@@ -64,9 +64,9 @@ No testing is currently set up
 
 ## Links
 
-- GitHub: https://github.com/sinka27/Employee_Tracker
+- GitHub: https://github.com/sinka27/E-Commerce-ORM
 
-- Heroku: 
+- Heroku: https://e-commerce-orm.herokuapp.com
 
 ## Walkthrough Video
 
