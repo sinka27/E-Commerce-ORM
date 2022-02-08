@@ -5,7 +5,12 @@ const { Category, Product } = require('../../models');
 
 router.get('/', (req, res) => {
   // find all categories
-  // be sure to include its associated Products
+  Category.findAll({
+    //include its associated Products
+    include: [Product],
+  }).then((category) => res.status(200).json(category))
+  .catch((err) => res.status(400).json(err))
+  
 });
 
 router.get('/:id', (req, res) => {
