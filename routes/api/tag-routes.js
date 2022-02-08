@@ -21,10 +21,10 @@ router.get('/:id', (req, res) => {
       id:req.params.id
     },
     // included its associated Product data
-    include: [Product, { model:Product, through: ProductTag }]
+    include: [{ model:Product, through: ProductTag }]
   })
-
-  .then((tag) => res.status(200).json(tag))
+  .then((category) => res.status(200).json(category))
+  // .then((tag) => res.status(200).json(tag))
   .catch((err) => res.status(400).json(err))
 });
 
@@ -48,6 +48,13 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
+  Tag.destroy({
+    where: {
+      id: req.params.id
+    }
+  })
+  .then((tag) => res.status(200).json("Tag deleted"))
+  .catch((err) => res.status(400).json(err))
 });
 
 module.exports = router;
