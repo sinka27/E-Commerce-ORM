@@ -1,5 +1,6 @@
 const { Product } = require('../models');
 
+// creates the variable productData that holds the array of objects.
 const productData = [
   {
     product_name: 'Plain T-Shirt',
@@ -33,6 +34,7 @@ const productData = [
   },
 ];
 
+// creates the seedProducts function that seeds the database with array of objects in the variable product data 
 const seedProducts = () => Product.bulkCreate(productData);
 
 module.exports = seedProducts;

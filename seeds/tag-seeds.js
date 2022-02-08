@@ -1,5 +1,6 @@
 const { Tag } = require('../models');
 
+//creates the variable tagData that holds the array of objects 
 const tagData = [
   {
     tag_name: 'rock music',
@@ -26,7 +27,7 @@ const tagData = [
     tag_name: 'pop culture',
   },
 ];
-
+//creates the function seedTags that creates the tagdata table of tage_names
 const seedTags = () => Tag.bulkCreate(tagData);
 
 module.exports = seedTags;
