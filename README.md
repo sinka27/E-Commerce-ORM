@@ -76,8 +76,13 @@ Please follow the link below to view a walkthrough video.
 
 ## Gif
 
-![](./assets/emptrack.gif)
+![](./assets/Seeds.gif)
 
+![](./assets/Categories.gif)
+
+![](./assets/Products.gif)
+
+![](./assets/Tags.gif)
 
 ## Credits
 
